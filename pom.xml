@@ -31,6 +31,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
   <modules>
     <module>tapi</module>
     <module>grpc</module>
+    <module>kafka</module>
     <module>features</module>
     <module>karaf</module>
   </modules>

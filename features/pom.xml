@@ -25,6 +25,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
   <modules>
     <module>odl-tapi21-tapi</module>
     <module>odl-tapi21-grpc</module>
+    <module>odl-tapi21-kafka</module>
     <module>odl-tapi21-all</module>
     <module>features-tapi21</module>
   </modules>
