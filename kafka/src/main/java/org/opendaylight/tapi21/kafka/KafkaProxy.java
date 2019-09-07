@@ -28,7 +28,7 @@ public class KafkaProxy {
     public void init() {
         LOG.info("KafkaProxy init start");
         Properties properties = new Properties();
-        properties.put("bootstrap.servers", "10.112.16.145:9092");
+        properties.put("bootstrap.servers", "10.112.19.145:9092");
         properties.put("acks", "all");
         properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
