@@ -25,10 +25,20 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
 
     <dependencies>
         <dependency>
+            <groupId>org.opendaylight.tapi21</groupId>
+            <artifactId>odl-tapi21-grpc-ext</artifactId>
+            <version>${project.version}</version>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>grpc</artifactId>
+            <artifactId>grpc-impl</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+
     </dependencies>
 
 </project>

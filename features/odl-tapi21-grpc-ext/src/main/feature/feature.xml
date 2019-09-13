@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright © 2018 Pantheon Technologies, s.r.o. and others.
+  ~
+  ~ This program and the accompanying materials are made available under the
+  ~ terms of the Eclipse Public License v1.0 which accompanies this distribution,
+  ~ and is available at http://www.eclipse.org/legal/epl-v10.html
+  -->
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-tapi21-grpc-ext-${project.version}">
+    <feature name="odl-tapi21-grpc-ext" version="${project.version}">
+        <bundle>wrap:mvn:io.grpc/grpc-core-context/1.13.1</bundle>
+        <bundle>mvn:com.google.code.gson/gson/2.8.5</bundle>
+        <bundle>mvn:com.google.guava/guava/23.0</bundle>
+        <bundle>wrap:mvn:io.grpc/grpc-auth/1.13.1</bundle>
+        <bundle>wrap:mvn:io.grpc/grpc-netty/1.13.1</bundle>
+        <bundle>wrap:mvn:io.grpc/grpc-okhttp/1.13.1</bundle>
+        <bundle>wrap:mvn:io.grpc/grpc-protobuf/1.13.1</bundle>
+        <bundle>wrap:mvn:io.grpc/grpc-protobuf-lite/1.13.1</bundle>
+        <bundle>wrap:mvn:io.grpc/grpc-stub/1.13.1</bundle>
+        <bundle>wrap:mvn:io.opencensus/opencensus-api/0.15.0</bundle>
+        <bundle>wrap:mvn:io.opencensus/opencensus-contrib-grpc-metrics/0.15.0</bundle>
+        <bundle>wrap:mvn:com.squareup.okhttp/okhttp/2.5.0</bundle>
+        <bundle>wrap:mvn:com.squareup.okio/okio/1.6.0</bundle>
+        <bundle>mvn:com.google.protobuf/protobuf-java/3.6.1</bundle>
+        <bundle>mvn:com.google.protobuf.nano/protobuf-javanano/3.2.0rc2</bundle>
+        <bundle>mvn:io.netty/netty-codec-socks/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-buffer/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-codec/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-codec-http/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-codec-http2/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-handler-proxy/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-common/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-handler/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-resolver/4.1.29.Final</bundle>
+        <bundle>mvn:io.netty/netty-transport/4.1.29.Final</bundle>
+    </feature>
+</features>
