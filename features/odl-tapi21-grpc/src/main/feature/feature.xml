@@ -10,7 +10,7 @@
     <feature name="odl-tapi21-grpc-ext" version="${project.version}">
         <bundle>wrap:mvn:io.grpc/grpc-core-context/1.13.1</bundle>
         <bundle>mvn:com.google.code.gson/gson/2.8.5</bundle>
-        <bundle>mvn:com.google.guava/guava/23.0</bundle>
+        <bundle>mvn:com.google.guava/guava/23.6-jre</bundle>
         <bundle>wrap:mvn:io.grpc/grpc-auth/1.13.1</bundle>
         <bundle>wrap:mvn:io.grpc/grpc-netty/1.13.1</bundle>
         <bundle>wrap:mvn:io.grpc/grpc-okhttp/1.13.1</bundle>
