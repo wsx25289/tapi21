@@ -124,7 +124,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-codec</artifactId>
-            <version>4.1.29.Final</version>
+            <version>4.1.68.Final</version>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
